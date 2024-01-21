@@ -313,6 +313,64 @@
                   "entityType": "NA",
                   "entities": []
             },
+            {
+                  "tag": "BITS APOGEE", 
+                  "patterns": [
+                        "What are the rules of BITS APOGEE?",
+                        "What are the rules of the hackathon in BITS APOGEE?",
+                        "Am I eligible for BITS APOGEE?",
+                        "Tell me about the rules of BITS APOGEE?",
+                        "What is the eligibility criteria of BITS APOGEE",
+                        "Who can participate in the BITS APOGEE?",
+                        "Can I participate in BITS APOGEE?"
+                  ],
+                  "responses": [
+                        "Open for All Students including BITS Pilani Engineering Students, UG students of any course, PG students of any course, You can participate in a team of 3-5 people. Every participant needs to register on the BITS APOGEE platform and apply for participation in the industry hackathon. The Hackathon Grand Finale is at BITS Pilani, Rajasthan - Your participation will be screened by our team, and we will communicate with you for the next steps - Anyone, including BITS Pilani Engineering Students, UG students of any course, and PG students of any course, can participate in this industry hackathon.",
+                       "All students studying in college are eligible.",
+                        "You can participate in a team of 3-5 people. Every participant needs to register on the BITS APOGEE platform and apply for participation in the industry hackathon. The Hackathon Grand Finale is at BITS Pilani, Rajasthan - Your participation will be screened by our team, and we will communicate with you for the next steps - Anyone, including BITS Pilani Engineering Students, UG students of any course, and PG students of any course, can participate in this industry hackathon.",     
+                  ],
+                  "extension":  {
+                        "function": "tag",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "tag",
+                        "out": "tag",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "tag": "HACKFEST IIIT DELHI", 
+                  "patterns": [
+                                   "What are the rules of HACKFEST IIIT D?",
+                                    "What are the rules of the hackathon in HACKFEST IIIT D?",
+                                    "Am I eligible for HACKFEST IIIT D?",
+                                    "Tell me about the rules of HACKFEST IIIT D?",
+                                    "What is the eligibility criteria of HACKFEST IIIT D?",
+                                    "Who can participate in HACKFEST IIIT D?",
+                                    "Can I participate in HACKFEST IIIT D?",
+                  ],
+                  "responses": [
+                        "Open for All Students including Engineering Students, UG students of any course, PG students of any course, You can participate in a team of 3-5 people. Every participant needs to register on the HACKFEST IIIT D platform and apply for participation in the industry hackathon. The Hackathon Grand Finale is at IIIT Delhi - Your participation will be screened by our team, and we will communicate with you for next steps - Anyone including Engineering Students, UG students of any course, and PG students of any course can participate in this industry hackathon.",
+                        "All students studying in a colege are eligible",
+                        "You can participate in a team of 3-5 people. Every participant needs to register on the HACKFEST IIIT D platform and apply for participation in the industry hackathon. The Hackathon Grand Finale is at IIIT Delhi - Your participation will be screened by our team, and we will communicate with you for next steps - Anyone including Engineering Students, UG students of any course, and PG students of any course can participate in this industry hackathon.",      
+                  ],
+                  "extension":  {
+                        "function": "tag",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "tag",
+                        "out": "tag",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
             { 
                   "tag": "TimeQuery",
                   "patterns": [
